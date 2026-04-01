@@ -3,57 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquette - Créateurs d'espaces minimalistes et intemporels</title>
+    <title>Monocrhome</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
  
-    <!-- header -->
+    <!-----***HEADER***----->
     <header class="header">
         <nav class="navbar">
-            <div class="logo">M</div>
+            <div class="titres-menu">
+            <div class="logo">
+                <img src="asset/Group 2.png" alt="logo">
+            </div>
             <ul class="nav-links">
                 <li><a href="#agence">L'agence</a></li>
                 <li><a href="#projets">Les projets</a></li>
                 <li><a href="#etapes">L'étapes</a></li>
-                <li><a href="#communaute">La communauté</a></li>
+                <li><a href="#commu">La communauté</a></li>
             </ul>
+
+            </div>
         </nav>
     </header>
  
-    <!-- main -->
+    <!-----***MAIN***----->
     <main class="main-content">
  
         <!-- 1ère section -->
-        <section class="hero" id="accueil">
-            <div class="hero-content">
+        <section class="hero">
+            <div class="hero-titre">
                 <h1>Créateurs d'espaces minimalistes et intemporels</h1>
-                <p>L'approche minimaliste nous permet de construire des espaces qui vous offrent une expérience intense tout en simplicité.</p>
+            </div>
+            <div class="hero-texte">
+                <p>Créateurs d'espaces minimalistes et fonctionnels, notre équipe fusionne  une esthétique épurée avec une attention minutieuse aux détails.</p>
             </div>
         </section>
  
         <!-- less is more -->
-        <section class="less-is-more" id="agence">
+        <section class="less-is-more">
             <h2>Less is more</h2>
             <p class="section-subtitle">L'approche minimaliste nous permet de construire des espaces qui vous offrent une expérience intense tout en simplicité.</p>
             
             <div class="services-container">
                 
-                <!-- Service 1 -->
                 <div class="service-card">
                     <h3>Design d'intérieur & mobilier</h3>
                     <p>Notre service de design d'intérieur transcende les limites de  l'esthétique conventionnelle pour créer des espaces qui reflètent votre  style de vie et vos besoins. </p>
                     <a href="#" class="btn">En savoir plus</a>
                 </div>
- 
-                <!-- Service 2 -->
                 <div class="service-card">
                     <h3>Conception & conseil en architecture</h3>
                     <p>L'architecture est l'art de donner vie aux espaces. Notre équipe  d'architectes talentueux allie créativité et expertise technique pour  concevoir des structures minimaliste et fonctionnel.</p>
                     <a href="#" class="btn">En savoir plus</a>
                 </div>
- 
-                <!-- Service 3 -->
                 <div class="service-card">
                     <h3>Aménagement paysager</h3>
                     <p>L'aménagement paysager est bien plus qu'une simple décoration extérieure : c'est la création d'un environnement harmonieux qui se fusionne avec la nature.</p>
@@ -63,51 +65,53 @@
             </div>
         </section>
  
-        <!-- section partenaires trust ========== -->
-        <section class="trust-section" id="clients">
+        <!-- section partenaires -->
+        <section class="partenaires-section">
             <h2>Ils nous ont fait confiance</h2>
             
-            <div class="logos-container">
+            <div class="logo">
                 <img src="asset/maison-du-monde.png" alt="Maison">
-                <img src="" alt="IBM">
-                <img src="" alt="Netflix">
-                <img src="" alt="Sony">
+                <img src="asset/ibm.png" alt="IBM">
+                <img src="asset/netflix.png" alt="Netflix">
+                <img src="asset/sony.png" alt="Sony">
             </div>
             
             <a href="#" class="btn btn-light">Découvrir plus</a>
         </section>
  
         <!-- projects -->
-        <section class="projects-section" id="projets">
+        <section class="projet-section">
             <h2>Nos projets</h2>
             <p class="section-subtitle">Découvrez nos projets et trouvez vous dans notre belle collaboration !</p>
             
-            <div class="projects-grid">
+            <div class="projet-grid">
+
  
                 <!-- Projet 1 -->
-                <div class="project-card">
-                    <img src="projet-lumiere.jpg" alt="Lumière Épurée">
+                <div class="photo">
+                    <a href="lumiere epuree page.html" class="projet lumière épurée"></a>
+                    <img src="asset/img-galerie-1.png" alt="Lumière Épurée">
                     <h3>Lumière Épurée</h3>
                     <p>Résidence contemporaine baignée de lumière naturelle, caractérisée par des lignes épurées et des espaces ouverts.</p>
                 </div>
  
                 <!-- Projet 2 -->
-                <div class="project-card">
-                    <img src="projet-reflet.jpg" alt="Reflet Urbain">
+                <div class="photo">
+                    <img src="asset/img-galerie-2.png" alt="Reflet Urbain">
                     <h3>Reflet Urbain</h3>
                     <p>Complexe architectural novateur qui intègre des éléments de verre et de métal pour créer une juxtaposition saisissante.</p>
                 </div>
  
                 <!-- Projet 3 -->
-                <div class="project-card">
-                    <img src="projet-oasis.jpg" alt="Oasis Urbaine">
+                <div class="photo">
+                    <img src="asset/img-galerie-3.png" alt="Oasis Urbaine">
                     <h3>Oasis Urbaine</h3>
                     <p>Un développement résidentiel axé sur la durabilité offrant des espaces verts luxuriants et des jardins communautaires.</p>
                 </div>
  
                 <!-- Projet 4 -->
-                <div class="project-card">
-                    <img src="projet-ressurgence.jpg" alt="Résurgence Naturelle">
+                <div class="photo">
+                    <img src="asset/img-galerie-4.png" alt="Résurgence Naturelle">
                     <h3>Résurgence Naturelle</h3>
                     <p>Rénovation écologique d'un bâtiment historique intégrant des technologies durables en matière d'énergie renouvelable.</p>
                 </div>
@@ -117,10 +121,12 @@
  
     </main>
  
-    <!-- footer -->
+    <!-----***FOOTER***----->
     <footer class="footer">
         <div class="footer-content">
-            <div class="logo-footer">M</div>
+            <div class="logo-footer">
+                <img src="asset/logo-white.png" alt="">
+            </div>
             <p>Monochrome Studio</p>
             <p>contact@monochrome.com</p>
         </div>
